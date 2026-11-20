@@ -1,0 +1,36 @@
+{
+    "autoplay": false,
+    "intervalMs": 5000,
+    "slides": [
+        {
+            "image": "https://placehold.co/400x300/svg",
+            "alt": "a place holder image that says the size of the image",
+            "title": "Placeholder slide 1",
+            "text": "Replace this with text for slide one"
+        },
+        {
+            "image": "https://placehold.co/400x300/svg",
+            "alt": "a place holder image that says the size of the image",
+            "title": "Placeholder slide 2",
+            "text": "Replace this with text for slide one"
+        },
+        {
+            "image": "https://placehold.co/400x300/svg",
+            "alt": "a place holder image that says the size of the image",
+            "title": "Placeholder slide 3",
+            "text": "Replace this with text for slide one"
+        },
+        {
+            "image": "https://placehold.co/400x300/svg",
+            "alt": "a place holder image that says the size of the image",
+            "title": "Placeholder slide 4",
+            "text": "Replace this with text for slide one"
+        },
+        {
+            "image": "https://placehold.co/400x300/svg",
+            "alt": "a place holder image that says the size of the image",
+            "title": "Placeholder slide 5",
+            "text": "Replace this with text for slide one"
+        }
+    ]
+}
