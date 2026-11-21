@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color1: #ff5f6d;
+            --color2: #2c3e8f;
+            --mid: 50%
+        }
+
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            background: linear-gradient(90deg, var(--color1), var(--mid), var(--color2));
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="customize.html">customize page js</a>
+            <a href="gradentbackground.html">gradient background</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    <script>
+        let target = 50;
+        let current = 50;
+        const ease = 0.1;
+
+        window.addEventListener("mousemove", (e) => {
+            target = (e.clientX / window.innerWidth) * 100;
+        });
+
+        function animate() {
+            current += (target - current) * ease;
+            const clamped = Math.min(99, Math.max(1, current));
+            document.documentElement.style.setProperty("--mid", clamped + "%");
+            requestAnimationFrame(animate)
+        }
+        animate();
+    </script>
+
+</body>
+
+</html>

@@ -7,21 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="placeholder-favicon.ico">
     <script src="customize.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=">
+    <style>
+
+    </style>
 </head>
 
 <body>
     <header>
-        <div class="top">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="customize.html">customize page js</a>
-                <a href="about.html">About Us</a>
-            </nav>
-        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="customize.html">customize page js</a>
+            <a href="gradentbackground.html">gradient background</a>
+            <a href="about.html">About Us</a>
+        </nav>
     </header>
-    <main class="center">
-        <label for="bgcsel" style="color: black;">Back ground color:</label>
-        <input type="color" name="background" id="bgcsel" onChange="bgc(this.value);" value="rgb(0 0 0)">
+    <main class="custom">
+        <div style="padding: 1rem;">
+            <label for="bgcsel">Back ground color:</label>
+            <input type="color" name="background" id="bgcsel" onChange="bgc(this.value);" value="rgb(0 0 0)">
+        </div>
+
+        <div style="padding: 1rem;">
+            <label for="icon">What icon do you want to use for the tab:</label>
+            <select name="icon" id="icon" onChange="setIcon(this.value);">
+                <optgroup label="not made by me">
+                    <option value="placeholder-favicon.ico">Placeholder icon</option>
+                    <option value="terra.png">terra icon</option>
+                </optgroup>
+                <optgroup label="made by me">
+                </optgroup>
+            </select>
+        </div>
+
 
     </main>
     <footer>

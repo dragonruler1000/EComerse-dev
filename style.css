@@ -99,28 +99,32 @@ body {
 }
 
 header,
-footer{
+footer {
   width: 100%;
   padding: 1rem;
 }
 
-header{
+header {
   position: absolute;
   top: 0;
   left: 0;
   background-color: aqua;
 }
 
-footer{
+footer {
   background-color: aqua;
   color: black;
   position: absolute;
   bottom: 0;
 }
 
-main{
+main {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.custom{
+  color: #000;
 }
