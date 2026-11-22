@@ -1,0 +1,12 @@
+{
+    "page": [
+        {
+            "url": "index.html",
+            "name": "home  "  
+        },
+        {
+            "url": "customize.html",
+            "name": "Customize page js  "
+        }
+    ]
+}
