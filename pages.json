@@ -26,7 +26,12 @@
         },
         {
             "url": "https://github.com/dragonruler1000/EComerse-dev/blob/main/README.md",
-            "name": "readme"
+            "name": "readme  "
+        },
+        {
+            "url": "thoughts.html",
+            "name": "Thoughts"
+
         }
     ]
 }

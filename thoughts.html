@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughts</title>
+    <link rel="icon" href="placeholder-favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            justify-content: normal;
+            align-items: normal;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+        </nav>
+        <script src="nav.js"></script>
+    </header>
+    <main>
+        <section>
+            <h1>What do you think of the site:</h1>
+            <form id="contactForm">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+                <label for="message" >Message</label>
+                <textarea id="message" name="message"  rows="6" cols="20" placeholder="enter your message here" required></textarea><br>
+
+                <input type="reset" value="Submit">
+                <input type="submit" value="Reset">
+                <!-- Submit and reset buttons swapped on purpose -->
+
+                <p id="status">-</p>
+
+            </form>
+            <script src="thoughts.js"></script>
+        </section>
+
+    </main>
+    <footer>
+        <p><a href="https://learningjs.minecraftchest2.com/">JSLearning</a> © 2026 by <a
+                href="https://github.com/dragonruler1000/">Zachariah Jackson</a> is licensed under <a
+                href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img
+                src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+                src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+                src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt=""
+                style="max-width: 1em;max-height:1em;margin-left: .2em;"></p>
+    </footer>
+
+</body>
+
+</html>

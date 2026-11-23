@@ -8,3 +8,5 @@ the hard part about making this was finding the motovation to work on it and fig
 ![gradent](screenshots/gradent.png)
 ![iframe fun](screenshots/iframe.png)
 ![about](screenshots/about.png)
+![dice](screenshots/dice.png)
+![contact](screenshots/contact.png)
