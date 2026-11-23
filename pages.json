@@ -19,6 +19,10 @@
         {
             "url": "about.html",
             "name": "About"
+        },
+        {
+            "url": "https://github.com/dragonruler1000/EComerse-dev/blob/main/README.md",
+            "name": "readme"
         }
     ]
 }
