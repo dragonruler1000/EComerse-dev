@@ -5,6 +5,6 @@ the hard part about making this was finding the motovation to work on it and fig
 ## screenshots
 ![index](screenshots/index.png)
 ![customize page](screenshots/customize.png)
-![](screenshots/gradent.png)
-![](screenshots/iframe.png)
-![](screenshots/about.png)
+![gradent](screenshots/gradent.png)
+![iframe fun](screenshots/iframe.png)
+![about](screenshots/about.png)
