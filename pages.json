@@ -2,11 +2,23 @@
     "page": [
         {
             "url": "index.html",
-            "name": "home  "  
+            "name": "Home  "  
         },
         {
             "url": "customize.html",
             "name": "Customize page js  "
+        },
+        {
+            "url": "gradentbackground.html",
+            "name": "Gradent Background"
+        },
+        {
+            "url": "iframe.html",
+            "name": "Iframe fun"
+        },
+        {
+            "url": "about.html",
+            "name": "About"
         }
     ]
 }

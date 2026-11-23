@@ -6,19 +6,37 @@
     <meta name="viewport" content="witdth=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="placeholder-favicon.ico">
+    <script src="about.js"></script>
+    <style>
+        .cool {
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="customize.html">customize page js</a>
-            <a href="gradentbackground.html">gradient background</a>
-            <a href="about.html">About Us</a>
         </nav>
+        <script src="nav.js"></script>
     </header>
     <main>
-        <p style="color: black;">This page is intentinaly left blank</p>
+        <p style="color: black;">Page intentinaly left<input type="button" id="blank" onclick="test()">blank</p>
+        <div id="cool" class="cool" hidden>
+            <br><br>
+            <p>this was a fun project to work on</p>
+            <p>I have learned a good amount about java script though there is still a good amount that i still have to
+                learn.<input type="button" id="blank2" onclick="show2()"></p>
+        </div>
+        <div id="2cool" class="cool" hidden>
+            <p>It is really fun to hide hidden text behind other hidden text</p>
+            <p>good luck finding the other hidden text on this page</p> <input type="button" id="blank3"
+                onclick="show3()">
+            <p>the console might give a hint though</p>
+            <div id="cool3" class="cool" hidden>
+                <p>I cant think of anything else to do to revel text that would be fun.</p>
+            </div>
+        </div>
     </main>
     <footer>
         <p><a href="https://learningjs.minecraftchest2.com/">JSLearning</a> © 2026 by <a
